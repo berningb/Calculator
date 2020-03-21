@@ -32,7 +32,6 @@ class Calculator:
                     self.new_entry.insert(0, a)
 
                 except ValueError:
-                    print('fuck')
                     self.new_entry.delete(0, END)
                     self.new_entry.insert(0, "")
         elif text == 'clr':
